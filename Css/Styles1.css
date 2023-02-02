@@ -1,0 +1,36 @@
+
+/*Main Layout*/
+
+body {
+    text-align: center;
+    height: 100%;
+    background:-webkit-linear-gradient(180deg, rgba(72, 72, 72, 0.55) 0%, rgba(50, 3, 3, 0.55) 100%), url(https://wallpapercave.com/wp/wp2133138.jpg);
+}
+
+.container-fluid {
+    padding: 3%;
+}
+
+h1 {
+    font-family: 'Ghastly Panic';
+    font-size: 18em;
+    background: linear-gradient(180deg, #B21515 0%, #B21515 0.01%, #320303 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 0.7em;
+}
+
+/*Buttons*/
+
+.btn{
+    margin: 1em 3em;
+    font-size: 2rem;
+    width: 20rem;
+    height: 4rem;
+    background: #050505;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+
+}
